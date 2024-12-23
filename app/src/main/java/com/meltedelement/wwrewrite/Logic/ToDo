@@ -1,0 +1,132 @@
+List of features in priority order
+
+1. An app on android to handle the logic of the game.
+    -1. A system to take in all the players of the current round and convert them to player objects with needed data
+    -2. A system for the game manager to perform each players night action on a selected player
+        -1. A system for players to recieve responses (Seer thumbs up/down etc)
+        -2. A system for the current wolf in the kill order to be the one to visit the selected player for being doused/role blocked/veteraned
+        -3. A system for players to select multiple people to perform actions on
+        -4. A system for players to select additional actions outside of just selecting a specific player (Pass, ignite, etc)
+        -5. A system to manage role blocks by escort
+    -3. A system for voting out/abstaining from voting a player during the day
+    -4. A system for killing a player when a tanner/hunter is voted guilty
+    -5. Tracking for each players visits throughout the whole game to allow for roles similiar to lookout to determine a player's visits throughout the whole game
+
+2. A section of the app dedicated to creating and saving custom role lists along with custom night action orders
+    -1. Having spots for any random town/ww/neutral role
+    -2. Saving these role lists as a code?
+    -3. A system for giving each role a rough points score based on recorded games/our guesses to make an estimate at if a role list is balanced
+
+3. Roles i want to add
+    Villager
+
+    Town Investigative
+        Seer (One person pick thumbs up/down for ww and certain neutrals?)
+        Apprentice seer (Takes over for seer on seer death. Maybe include aura and PI?)
+        Aura seer (Compares 2 players teams for thumbs up if matching)
+        Ghost (Dies N1 gives one letter every night after)
+        Private Investigator (Thumbs up if selected or neighbours is ww)
+        Clockmaker (Knows if closest ww is left/right)
+        Tracker (Knows who target visits)
+        Lookout (Knows who visits target)
+        Empath (Multiple pick but becomes a ww if ww is revealed)
+
+    Town Protective
+        Bodyguard (Target cannot be killed by basic attacks. Vigi, vet, arso and others bypass can visit themselves but not 2 nights in a row)
+        Witch (one single use protect and kill each game, One single use role reveal as well?)
+        Escort  (Role blocks one person every night)
+
+    Town Killing
+        Deputy (Can shoot at any point during the day, dies if they shoot a town)
+        Vigilante (3 shots from N2 onwards dies if shoots a town)
+        Veteran (3 alerts to kill any visitors from N2 onwards, has basic defense on alert)
+        Hunter (one single use kill upon death)
+
+    Town Negative
+        Cupid (links 2 players to die together)
+        Lycan (Is treated like a ww for role reveals)
+        Cursed (If attacked by wws becomes basic ww)
+
+    Werewolves
+        Werewolf (ww villager)
+        Sorcerer (Silences one person a night)
+        WW Cub (On death gives 2 kills to werewolves next night)
+        Hexwolf (every other night permanently marks a person to appear as a ww for role reveals)
+        Mistwolf (While alive deaths during the night do not reveal their roles)
+List of features in priority order
+
+1. An app on android to handle the logic of the game.
+    -1. A system to take in all the players of the current round and convert them to player objects with needed data
+    -2. A system for the game manager to perform each players night action on a selected player
+        -1. A system for players to recieve responses (Seer thumbs up/down etc)
+        -2. A system for the current wolf in the kill order to be the one to visit the selected player for being doused/role blocked/veteraned
+        -3. A system for players to select multiple people to perform actions on
+        -4. A system for players to select additional actions outside of just selecting a specific player (Pass, ignite, etc)
+        -5. A system to manage role blocks by escort
+    -3. A system for voting out/abstaining from voting a player during the day
+    -4. A system for killing a player when a tanner/hunter is voted guilty
+    -5. Tracking for each players visits throughout the whole game to allow for roles similiar to lookout to determine a player's visits throughout the whole game
+
+2. A section of the app dedicated to creating and saving custom role lists along with custom night action orders
+    -1. Having spots for any random town/ww/neutral role
+    -2. Saving these role lists as a code?
+    -3. A system for giving each role a rough points score based on recorded games/our guesses to make an estimate at if a role list is balanced
+
+3. Roles i want to add
+    Villager
+
+    Town Investigative
+        Seer (One person pick thumbs up/down for ww and certain neutrals?)
+        Apprentice seer (Takes over for seer on seer death. Maybe include aura and PI?)
+        Aura seer (Compares 2 players teams for thumbs up if matching)
+        Ghost (Dies N1 gives one letter every night after)
+        Private Investigator (Thumbs up if selected or neighbours is ww)
+        Clockmaker (Knows if closest ww is left/right)
+        Tracker (Knows who target visits)
+        Lookout (Knows who visits target)
+        Empath (Multiple pick but becomes a ww if ww is revealed)
+
+    Town Protective
+        Bodyguard (Target cannot be killed by basic attacks. Vigi, vet, arso and others bypass can visit themselves but not 2 nights in a row)
+        Witch (one single use protect and kill each game, One single use role reveal as well?)
+        Escort  (Role blocks one person every night)
+
+    Town Killing
+        Deputy (Can shoot at any point during the day, dies if they shoot a town)
+        Vigilante (3 shots from N2 onwards dies if shoots a town)
+        Veteran (3 alerts to kill any visitors from N2 onwards, has basic defense on alert)
+        Hunter (one single use kill upon death)
+
+    Town Negative
+        Cupid (links 2 players to die together)
+        Lycan (Is treated like a ww for role reveals)
+        Cursed (If attacked by wws becomes basic ww)
+
+    Werewolves
+        Werewolf (ww villager)
+        Sorcerer (Silences one person a night)
+        WW Cub (On death gives 2 kills to werewolves next night)
+        Hexwolf (every other night permanently marks a person to appear as a ww for role reveals)
+        Mistwolf (While alive deaths during the night do not reveal their roles)
+
+    Neutral
+        Doppleganger (N1 picks someone to inherit their role when they die)
+        Arsonist (douses 1 person every night or can ignite to kill all that are doused, douses any visitors)
+        Tanner (Wins and kills someone if voted out)
+        Executioner (picks someone N1, wins if that person is voted out, becomes a tanner if target dies otherwise, has basic defense)
+        Soul Collector (Something to do with guessing a person to die every night?)
+        Pestilence (Infects a target, infects any visitors, all infected players infect their targets and any visitors, kills a person and all their visitors each night once all players are infected, town are warned the morning of this happening)
+        Serial Killer (kills one person every night, kills any escort that visits them, has basic defense)
+        Atheist (Is determined at the start of the game, if there is an atheist no other evil roles are put into the game, it is up to the game manager to pretend that there is, all players except the atheist and the gm win if the gm is voted, if the gm is ever voted in a non-atheist game all players lose )
+
+    Neutral
+        Doppleganger (N1 picks someone to inherit their role when they die)
+        Arsonist (douses 1 person every night or can ignite to kill all that are doused, douses any visitors)
+        Tanner (Wins and kills someone if voted out)
+        Executioner (picks someone N1, wins if that person is voted out, becomes a tanner if target dies otherwise, has basic defense)
+        GraveDigger (Something to do with guessing a person to die every night?)
+        Pestilence (Infects a target, infects any visitors, all infected players infect their targets and any visitors, kills a person and all their visitors each night once all players are infected, town are warned the morning of this happening)
+        Serial Killer (kills one person every night, kills any escort that visits them, has basic defense)
+        Atheist (Is determined at the start of the game, if there is an atheist no other evil roles are put into the game, it is up to the game manager to pretend that there is, all players except the atheist and the gm win if the gm is voted, if the gm is ever voted in a non-atheist game all players lose )
+
+4. Possibly a way to add extra roles without having to code them in with a list of parameters that can be customised? Dont worry about this one though.
